@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Real-Time Stack Application</title>
+</head>
+<body>
+    <header>
+        <h1>Real-Time Stack Application</h1>
+        <p> Made by: Kanishk Reddy- 870 and Shreshta Srivastava- 872</p>
+    </header>
+    <div id="container">
+        <h2>How It Works</h2>
+        <p>
+            Welcome to our real-time stack demonstration. This application simulates the behavior of a stack data structure, where you can push and pop items in real time.
+        </p>
+
+        <h3>Stack Structure</h3>
+        <p>
+            A stack is a data structure that follows the Last-In, First-Out (LIFO) principle. Imagine it as a stack of books, where the most recently added book is on top, and you can only add or remove books from the top of the stack.
+        </p>
+
+        <h3>Pushing Items</h3>
+        <p>
+            Let's start by adding items to our stack:
+        </p>
+        <input type="text" id="itemInput" placeholder="Enter an item">
+        <button onclick="pushItem()">Push</button>
+
+        <h3>Popping Items</h3>
+        <p>
+            Now, let's remove an item from the stack:
+        </p>
+        <button onclick="popItem()">Pop</button>
+
+        <h3>Real-time Update</h3>
+        <p>
+            Notice that the stack updates in real time. When you push or pop items, the display reflects the current state of the stack.
+        </p>
+
+        <h3>Display Stack</h3>
+        <div id="stackContainer"></div>
+
+        <h3>Clear Input</h3>
+        <p>
+            You can clear the input field by pressing the "Push" button again. This ensures your input is clean and ready for the next item.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
